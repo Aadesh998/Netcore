@@ -7,8 +7,7 @@
 
 using namespace std;
 
-constexpr int PORT = 8080;
-constexpr int BUFFER_SIZE = 1024;
+#include "tcp/config.hpp"
 
 int main() {
     int server_fd, new_socket;
